@@ -3,6 +3,7 @@ package com.vedruna.proyectofinalmultimedia.model;
 import androidx.annotation.NonNull;
 
 public class Player {
+    public int idPlayer;
     public String name;
     public String position;
     public String clubName;
@@ -11,11 +12,20 @@ public class Player {
     public Player() {
     }
 
-    public Player(String name, String position, String clubName, String imageURL) {
+    public Player(int idPlayer, String name, String position, String clubName, String imageURL) {
+        this.idPlayer = idPlayer;
         this.name = name;
         this.position = position;
         this.clubName = clubName;
         this.imageURL = imageURL;
+    }
+
+    public int getIdPlayer() {
+        return idPlayer;
+    }
+
+    public void setIdPlayer(int idPlayer) {
+        this.idPlayer = idPlayer;
     }
 
     public String getName() {
@@ -53,6 +63,6 @@ public class Player {
     @NonNull
     @Override
     public String toString() {
-        return "Id: " + getName() + " / Posicion: " + getPosition() + " / Club: " + getClubName();
+        return "Id: " + getIdPlayer() + " / Nombre: " + getName() + " / Posicion: " + getPosition() + " / Club: " + getClubName();
     }
 }

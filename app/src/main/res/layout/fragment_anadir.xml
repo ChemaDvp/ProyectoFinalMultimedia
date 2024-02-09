@@ -8,13 +8,16 @@
     android:background="#559e9e"
     tools:context=".anadir" >
 
+
+    <!-- Logo centrado -->
+
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar3"
         android:layout_width="300dp"
         android:layout_height="48dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.855"
+        app:layout_constraintHorizontal_bias="0.279"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -31,18 +34,117 @@
             tools:layout_editor_absoluteY="18dp" />
     </androidx.appcompat.widget.Toolbar>
 
-    <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="65dp"
-        android:layout_height="65dp"
-        android:backgroundTint="#559e9e"
-        android:contentDescription="botón back"
-        android:src="@drawable/ic_flechatras"
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="600dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.086"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.77">
+
+        <!-- Text View para el Nombre -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="ID:"
+            android:textSize="18sp" />
+
+        <!-- EditText para ingresar el Nombre -->
+        <EditText
+            android:id="@+id/editTextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Id del jugador"
+            android:inputType="text"
+            android:minHeight="48dp" />
+
+        <!-- Text View para el Nombre -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Nombre:"
+            android:textSize="18sp" />
+
+        <!-- EditText para ingresar el Nombre -->
+        <EditText
+            android:id="@+id/editTextNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre del jugador"
+            android:inputType="text"
+            android:minHeight="48dp" />
+
+        <!-- Text View para el Precio -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:text="Posición:"
+            android:textSize="18sp" />
+
+        <!-- EditText para ingresar el Precio -->
+        <EditText
+            android:id="@+id/editTextPosicion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Posición del jugador"
+            android:inputType="text"
+            android:minHeight="48dp" />
+
+        <!-- Text View para el Precio -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:text="Equipo:"
+            android:textSize="18sp" />
+
+        <!-- EditText para ingresar el Precio -->
+        <EditText
+            android:id="@+id/editTextEquipo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Equipo del jugador"
+            android:inputType="text"
+            android:minHeight="48dp" />
+
+
+        <!-- Text View para la URL de la Imagen -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:text="URL de la Imagen:"
+            android:textSize="18sp" />
+
+        <!-- EditText para ingresar la URL de la Imagen -->
+        <EditText
+            android:id="@+id/editTextUrlImagen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese la imagen del jugador"
+            android:inputType="text"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/buttonCrearProducto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#0D3444"
+            android:text="Crear Jugador" />
+    </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

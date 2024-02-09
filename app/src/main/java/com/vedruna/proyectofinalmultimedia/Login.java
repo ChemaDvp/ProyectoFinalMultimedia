@@ -56,7 +56,7 @@ public class Login extends AppCompatActivity {
 
     public void entrar(View view) {
         // Obtener el usuario y la contraseña ingresados
-        String usuario = user.getText().toString();
+        String usuario = user.getText().toString().trim();
         String password = pass.getText().toString();
 
         // Verificar si el usuario y la contraseña son "admin"
