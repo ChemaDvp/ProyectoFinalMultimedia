@@ -5,8 +5,8 @@
     android:id="@+id/frameLayout3"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#559e9e"
-    tools:context=".anadir" >
+    android:background="@android:color/holo_red_dark"
+    tools:context=".anadir">
 
 
     <!-- Logo centrado -->
@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/anonymous_pro_bold"
             android:text="Añadir"
-            android:textColor="#285664"
+            android:textColor="@color/white"
             android:textSize="25sp"
             android:textStyle="bold"
             tools:layout_editor_absoluteX="44dp"
@@ -53,6 +53,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
             android:text="ID:"
+            android:textColor="@color/white"
             android:textSize="18sp" />
 
         <!-- EditText para ingresar el Nombre -->
@@ -60,7 +61,7 @@
             android:id="@+id/editTextId"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Id del jugador"
+            android:hint="Id jugador"
             android:inputType="text"
             android:minHeight="48dp" />
 
@@ -70,6 +71,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
             android:text="Nombre:"
+            android:textColor="@color/white"
             android:textSize="18sp" />
 
         <!-- EditText para ingresar el Nombre -->
@@ -77,7 +79,7 @@
             android:id="@+id/editTextNombre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Nombre del jugador"
+            android:hint="Nombre jugador"
             android:inputType="text"
             android:minHeight="48dp" />
 
@@ -88,6 +90,7 @@
             android:layout_marginTop="16dp"
             android:layout_marginBottom="8dp"
             android:text="Posición:"
+            android:textColor="@color/white"
             android:textSize="18sp" />
 
         <!-- EditText para ingresar el Precio -->
@@ -95,7 +98,7 @@
             android:id="@+id/editTextPosicion"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Posición del jugador"
+            android:hint="Posición jugador"
             android:inputType="text"
             android:minHeight="48dp" />
 
@@ -106,6 +109,7 @@
             android:layout_marginTop="16dp"
             android:layout_marginBottom="8dp"
             android:text="Equipo:"
+            android:textColor="@color/white"
             android:textSize="18sp" />
 
         <!-- EditText para ingresar el Precio -->
@@ -113,7 +117,7 @@
             android:id="@+id/editTextEquipo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Equipo del jugador"
+            android:hint="Equipo jugador"
             android:inputType="text"
             android:minHeight="48dp" />
 
@@ -125,6 +129,7 @@
             android:layout_marginTop="16dp"
             android:layout_marginBottom="8dp"
             android:text="URL de la Imagen:"
+            android:textColor="@color/white"
             android:textSize="18sp" />
 
         <!-- EditText para ingresar la URL de la Imagen -->
@@ -132,7 +137,7 @@
             android:id="@+id/editTextUrlImagen"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Ingrese la imagen del jugador"
+            android:hint="Imagen del jugador"
             android:inputType="text"
             android:minHeight="48dp" />
 
@@ -142,8 +147,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="16dp"
-            android:backgroundTint="#0D3444"
-            android:text="Crear Jugador" />
+            android:backgroundTint="@color/white"
+            android:text="Crear Jugador"
+            android:textColor="@color/black" />
     </LinearLayout>
 
 

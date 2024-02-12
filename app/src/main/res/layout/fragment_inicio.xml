@@ -5,7 +5,7 @@
     android:id="@+id/frameLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#559e9e"
+    android:background="@android:color/holo_red_dark"
     tools:context=".inicio">
 
 
@@ -13,9 +13,9 @@
         android:id="@+id/toolbar3"
         android:layout_width="300dp"
         android:layout_height="48dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="16dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.144"
+        app:layout_constraintHorizontal_bias="0.279"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -25,7 +25,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/anonymous_pro_bold"
             android:text="Inicio"
-            android:textColor="#285664"
+            android:textColor="@color/white"
             android:textSize="25sp"
             android:textStyle="bold"
             tools:layout_editor_absoluteX="44dp"
@@ -35,11 +35,13 @@
     <ListView
         android:id="@+id/lista"
         android:layout_width="400dp"
-        android:layout_height="500dp"
+        android:layout_height="550dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.77"
         tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

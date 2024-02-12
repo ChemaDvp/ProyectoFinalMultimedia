@@ -5,8 +5,8 @@
     android:id="@+id/frameLayout4"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#559e9e"
-    tools:context=".actualizar" >
+    android:background="@android:color/holo_red_dark"
+    tools:context=".actualizar">
 
     <!-- Logo centrado -->
 
@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/anonymous_pro_bold"
             android:text="Actualizar"
-            android:textColor="#285664"
+            android:textColor="@color/white"
             android:textSize="25sp"
             android:textStyle="bold"
             tools:layout_editor_absoluteX="44dp"
@@ -37,6 +37,7 @@
     <LinearLayout
         android:layout_width="350dp"
         android:layout_height="600dp"
+        android:gravity="center"
         android:orientation="vertical"
         android:padding="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -44,7 +45,7 @@
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.877">
+        app:layout_constraintVertical_bias="0.77">
 
 
         <TextView
@@ -52,7 +53,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
             android:text="ID:"
-            android:textColor="#0D3444"
+            android:textColor="@color/white"
             android:textColorHighlight="#0D3444"
             android:textColorHint="#0D3444"
             android:textColorLink="#0D3444"
@@ -63,12 +64,9 @@
             android:id="@+id/editTextID"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="ID jugador"
+            android:hint="Id jugador"
             android:inputType="text"
-            android:minHeight="48dp"
-            android:textColorHighlight="#0D3444"
-            android:textColorHint="#0D3444"
-            android:textColorLink="#0D3444" />
+            android:minHeight="48dp" />
 
         <!-- Text View para el Nombre -->
         <TextView
@@ -76,7 +74,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
             android:text="Nombre:"
-            android:textColor="#0D3444"
+            android:textColor="@color/white"
             android:textColorHighlight="#0D3444"
             android:textColorHint="#0D3444"
             android:textColorLink="#0D3444"
@@ -89,10 +87,7 @@
             android:layout_height="wrap_content"
             android:hint="Nombre jugador"
             android:inputType="text"
-            android:minHeight="48dp"
-            android:textColorHighlight="#0D3444"
-            android:textColorHint="#0D3444"
-            android:textColorLink="#0D3444" />
+            android:minHeight="48dp" />
 
         <!-- Text View para la Posicion -->
         <TextView
@@ -101,7 +96,7 @@
             android:layout_marginTop="16dp"
             android:layout_marginBottom="8dp"
             android:text="Posicion:"
-            android:textColor="#0D3444"
+            android:textColor="@color/white"
             android:textColorHighlight="#0D3444"
             android:textColorHint="#0D3444"
             android:textColorLink="#0D3444"
@@ -114,10 +109,7 @@
             android:layout_height="wrap_content"
             android:hint="Posicion jugador"
             android:inputType="text"
-            android:minHeight="48dp"
-            android:textColorHighlight="#0D3444"
-            android:textColorHint="#0D3444"
-            android:textColorLink="#0D3444" />
+            android:minHeight="48dp" />
 
         <!-- Text View para la Posicion -->
         <TextView
@@ -126,7 +118,7 @@
             android:layout_marginTop="16dp"
             android:layout_marginBottom="8dp"
             android:text="Equipo:"
-            android:textColor="#0D3444"
+            android:textColor="@color/white"
             android:textColorHighlight="#0D3444"
             android:textColorHint="#0D3444"
             android:textColorLink="#0D3444"
@@ -139,10 +131,7 @@
             android:layout_height="wrap_content"
             android:hint="Equipo jugador"
             android:inputType="text"
-            android:minHeight="48dp"
-            android:textColorHighlight="#0D3444"
-            android:textColorHint="#0D3444"
-            android:textColorLink="#0D3444" />
+            android:minHeight="48dp" />
 
         <!-- Text View para la URL de la Imagen -->
         <TextView
@@ -150,8 +139,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:layout_marginBottom="8dp"
-            android:text="Imagen jugador:"
-            android:textColor="#0D3444"
+            android:text="URL de la Imagen:"
+            android:textColor="@color/white"
             android:textColorHighlight="#0D3444"
             android:textColorHint="#0D3444"
             android:textColorLink="#0D3444"
@@ -162,12 +151,9 @@
             android:id="@+id/editTextUrlImagen"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="URL del jugador"
+            android:hint="Imagen del jugador"
             android:inputType="text"
-            android:minHeight="48dp"
-            android:textColorHighlight="#0D3444"
-            android:textColorHint="#0D3444"
-            android:textColorLink="#0D3444" />
+            android:minHeight="48dp" />
 
         <Button
             android:id="@+id/buttonActualizarJugador"
@@ -175,8 +161,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="16dp"
-            android:backgroundTint="#0D3444"
-            android:text="Actualizar Jugador" />
+            android:backgroundTint="@color/white"
+            android:text="Actualizar Jugador"
+            android:textColor="@color/black" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
