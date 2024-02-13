@@ -73,6 +73,7 @@ Incluir un README completo que contenga:
 ### OPCIÓN ELEGIDA -> Opción 1: Consumir un API Público y Loguearse mediante Google
 
 - Consumir un API público diferente por cada estudiante (sin repeticiones).
+  - API pública (PROPIA CREACIÓN): https://github.com/ChemaDvp/ApiBasica.git
 - Implementar el inicio de sesión utilizando las credenciales de Google.
 
 #### Puntuación:
