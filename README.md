@@ -80,17 +80,3 @@ Incluir un README completo que contenga:
 - Consumir API público: 3.5 puntos.
 - Loguearse con Google: 1.5 puntos.
 
-### Opción 2: Consumir API de Twitter y Loguearse mediante la API de Twitter
-
-- Crear y consumir tu propio API.
-- Implementar el inicio de sesión utilizando tu propia API.
-
-#### Puntuación:
-
-- Consumir tu propio API: 3.5 puntos.
-- Loguearse con tu propio API: 1.5 puntos.
-
-### Observaciones Importantes
-
-- Si un estudiante opta por alguna de las opciones para obtener la puntuación máxima de 10, pero no completa alguna parte, deberá cumplir con los requisitos mínimos.
-- Por ejemplo, si se elige consumir un API público pero no se implementa el inicio de sesión con Google, el estudiante deberá realizar el inicio de sesión utilizando SQLite para cumplir con los requisitos mínimos.
