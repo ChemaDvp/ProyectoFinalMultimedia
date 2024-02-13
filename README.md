@@ -70,7 +70,7 @@ Incluir un README completo que contenga:
 
 # Funcionalidades Adicionales (Opción de Obtener Puntuación de 10)
 
-### Opción 1: Consumir un API Público y Loguearse mediante Google
+### OPCIÓN ELEGIDA -> Opción 1: Consumir un API Público y Loguearse mediante Google
 
 - Consumir un API público diferente por cada estudiante (sin repeticiones).
 - Implementar el inicio de sesión utilizando las credenciales de Google.
