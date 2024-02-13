@@ -14,6 +14,7 @@ Este proyecto tiene como objetivo la creación de una aplicación en Android Stu
 ### Temática de la Aplicación
 
 Cada estudiante deberá seleccionar un tema único para su aplicación, evitando la repetición entre compañeros. En caso de no utilizar la API de Twitter proporcionada para el acceso, se deberá elegir una temática original.
+#### TEMÁTICA ELEGIDA: Jugadores de Futbol
 
 ### Componentes Obligatorios
 
