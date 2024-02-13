@@ -52,7 +52,6 @@ public class borrar extends Fragment {
 
     private void setupDeleteButton(View view) {
         button = view.findViewById(R.id.buttonBorrarProducto);
-
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -65,7 +64,8 @@ public class borrar extends Fragment {
                 } else {
                     // Manejar el caso en el que el ID esté vacío
                     // Puedes mostrar un mensaje de error o realizar otras acciones
-                    Log.e("Error", "El ID no puede estar vacío");
+                    //Log.e("Error", "El ID no puede estar vacío");
+                    mostrarToast("El Id no puede estar vacío");
                 }
             }
         });
@@ -94,7 +94,6 @@ public class borrar extends Fragment {
                 mostrarToast("Jugador eliminado");
                 // Borrado exitoso, puedes realizar acciones adicionales si es necesario
             }
-
             @Override
             public void onFailure(Call<Void> call, Throwable t) {
                 Log.e("Throw err:", t.getMessage());

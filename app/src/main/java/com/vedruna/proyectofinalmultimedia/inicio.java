@@ -13,6 +13,7 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
+import com.google.firebase.auth.FirebaseAuth;
 import com.vedruna.proyectofinalmultimedia.adapter.PlayerAdapter;
 import com.vedruna.proyectofinalmultimedia.interfaces.CRUDInterfaces;
 import com.vedruna.proyectofinalmultimedia.model.Player;
@@ -32,6 +33,7 @@ public class inicio extends Fragment {
     List<Player> players;
     CRUDInterfaces crudInterface;
     ListView listView;
+
 
     public inicio(){}
 

@@ -29,13 +29,10 @@ public class anadir extends Fragment {
 
     EditText nameText;
     EditText idText;
-
     EditText posicionText;
     EditText equipoText;
-
     EditText editTextUrlImagen;
     Button button;
-
     CRUDInterfaces crudInterfaces;
 
     public anadir() {
@@ -72,15 +69,20 @@ public class anadir extends Fragment {
                 String posicion = posicionText.getText().toString();
                 String equipo = equipoText.getText().toString();
                 String urlImagen = editTextUrlImagen.getText().toString();
-                Player player = new Player(Integer.parseInt(id), nombre, posicion, equipo, urlImagen);
-                create(player);
+
+                // Verificar si alguno de los campos está vacío
+                if (id.isEmpty() || nombre.isEmpty() || posicion.isEmpty() || equipo.isEmpty() || urlImagen.isEmpty()) {
+                    // Mostrar Toast indicando que todos los campos son obligatorios
+                    mostrarToast("Todos los campos son obligatorios");
+                } else {
+                    Player player = new Player(Integer.parseInt(id), nombre, posicion, equipo, urlImagen);
+                    create(player);
+                }
             }
         });
 
         return rootView;
     }
-
-
 
     private void create(Player player){
         Retrofit retrofit= new Retrofit.Builder().baseUrl(Constants.BASE_URL).
@@ -98,15 +100,13 @@ public class anadir extends Fragment {
                     return;
                 }
                 Player player = response.body();
-                mostrarToast("Producto añadido correctamente: " + player.getName());
+                mostrarToast("Jugador añadido correctamente: " + player.getName());
             }
-
             @Override
             public void onFailure(Call<Player> call, Throwable t) {
                 Log.e("Throw err:",t.getMessage());
             }
         });
-
     }
     private void mostrarToast(String mensaje) {
         Toast.makeText(getActivity(), mensaje, Toast.LENGTH_SHORT).show();

@@ -31,7 +31,6 @@ public class actualizar extends Fragment {
     EditText editTextUrlImagen;
     Button button;
     EditText idText;  // Nuevo EditText para el ID
-
     private Retrofit retrofit;
     CRUDInterfaces crudInterfaces;
 
@@ -77,33 +76,39 @@ public class actualizar extends Fragment {
         String equipo = equipoText.getText().toString().trim();
         String imagen = editTextUrlImagen.getText().toString().trim();
 
-        // Crear un jugador
-        Player player = new Player( Integer.parseInt(id),nombre, posicion, equipo , imagen);
+        // Verificar si alguno de los campos está vacío
+        if (id.isEmpty() || nombre.isEmpty() || posicion.isEmpty() || equipo.isEmpty() || imagen.isEmpty()) {
+            // Mostrar Toast indicando que todos los campos son obligatorios
+            mostrarToast("Todos los campos son obligatorios");
+        } else {
+            // Crear un jugador
+            Player player = new Player(Integer.parseInt(id), nombre, posicion, equipo, imagen);
 
-        crudInterfaces = retrofit.create(CRUDInterfaces.class);
+            crudInterfaces = retrofit.create(CRUDInterfaces.class);
 
-        // Llamar al método actualizar
-        Call<Player> call = crudInterfaces.actualizar(Integer.parseInt(id), player);
+            // Llamar al método actualizar
+            Call<Player> call = crudInterfaces.actualizar(Integer.parseInt(id), player);
 
-        call.enqueue(new Callback<Player>() {
-            @Override
-            public void onResponse(Call<Player> call, Response<Player> response) {
-                if (!response.isSuccessful()) {
-                    Log.e("Response err ", response.message());
-                    return;
+            call.enqueue(new Callback<Player>() {
+                @Override
+                public void onResponse(Call<Player> call, Response<Player> response) {
+                    if (!response.isSuccessful()) {
+                        Log.e("Response err ", response.message());
+                        return;
+                    }
+                    Player player1 = response.body();
+                    mostrarToast("Jugador actualizado: " + player1.getName());
                 }
-                Player player1 = response.body();
-                // Hacer algo con el producto actualizado si es necesario
-                mostrarToast("Jugador actualizado: " + player1.getName());
 
-            }
-            @Override
-            public void onFailure(Call<Player> call, Throwable t) {
-                Log.e("Throw err:", t.getMessage());
-                mostrarToast("Error al actualizar el jugador");
-            }
-        });
+                @Override
+                public void onFailure(Call<Player> call, Throwable t) {
+                    Log.e("Throw err:", t.getMessage());
+                    mostrarToast("Error al actualizar el jugador");
+                }
+            });
+        }
     }
+
     // Método para mostrar un Toast
     private void mostrarToast(String mensaje) {
         Toast.makeText(getActivity(), mensaje, Toast.LENGTH_SHORT).show();
