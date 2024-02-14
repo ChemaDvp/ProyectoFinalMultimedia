@@ -113,7 +113,7 @@ Notificar mediante Toast la creación, modificación o eliminación de elementos
 
 - Toast de Añadir, Modificar y Borrar:
   
-![toast3](https://github.com/ChemaDvp/ProyectoFinalMultimedia/assets/115820368/2dbf8ae6-3007-4bc5-9b81-b667dc059c3d){width=50px height=50px}
+![toast3](https://github.com/ChemaDvp/ProyectoFinalMultimedia/assets/115820368/2dbf8ae6-3007-4bc5-9b81-b667dc059c3d)
 
 ![toast2](https://github.com/ChemaDvp/ProyectoFinalMultimedia/assets/115820368/b6275ce1-e488-41b4-a21a-1e7aa2bddf8c)
 
