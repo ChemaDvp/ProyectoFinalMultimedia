@@ -38,7 +38,14 @@ Cada estudiante deberá seleccionar un tema único para su aplicación, evitando
 La aplicación debe contar con al menos dos actividades:
 
 1. Actividad de Login.
+
+  ![login](https://github.com/ChemaDvp/ProyectoFinalMultimedia/assets/115820368/c9eaf341-7cf3-4d43-b224-db5383e36744)
+
+   
 2. Actividad principal, a la cual se redirigirá al usuario tras un inicio de sesión exitoso.
+
+   ![actividadPrincipal](https://github.com/ChemaDvp/ProyectoFinalMultimedia/assets/115820368/e3d03d59-301b-46cc-af7b-78bf6caa26e0)
+
 
 ### Fragments
 La actividad principal debe incluir varios fragments:
