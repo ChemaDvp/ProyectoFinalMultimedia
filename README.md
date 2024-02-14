@@ -80,11 +80,11 @@ Integrar botones en las distintas pantallas para facilitar la interacción del u
 
 ![botones1](https://github.com/ChemaDvp/ProyectoFinalMultimedia/assets/115820368/3b6e284e-16cd-4935-b025-6fe71903a5c2)
 
-- Boton Añadir:
+- Boton ejemplo Añadir:
 
 ![botones2](https://github.com/ChemaDvp/ProyectoFinalMultimedia/assets/115820368/0215c4bb-38f2-4ff0-b1d8-848e87e0bf5e)
 
-- Boton Borrar:
+- Boton ejemplo Actualizar:
 
 ![botones3](https://github.com/ChemaDvp/ProyectoFinalMultimedia/assets/115820368/6d47df27-b4a0-42c8-bb7a-73a043313526)
 
