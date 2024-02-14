@@ -100,6 +100,8 @@ Incluir campos de texto para introducir información en los fragments correspond
 ### Listas
 Mostrar los elementos en listas, donde cada elemento deberá incluir al menos el nombre y una breve descripción debajo de él. Debe haber una cantidad suficiente de elementos para permitir el desplazamiento en la lista.
 
+https://github.com/ChemaDvp/ProyectoFinalMultimedia/assets/115820368/bf006aec-05ef-434e-bf43-89aefa3cc4cd
+
 ### Barra de Navegación Inferior
 Implementar una barra de navegación inferior para facilitar la transición entre los fragments. Debe incluir un botón que cierre la sesión y lleve al usuario de vuelta a la actividad de login.
 
@@ -108,6 +110,26 @@ Implementar una barra de navegación inferior para facilitar la transición entr
 
 ### Toasts
 Notificar mediante Toast la creación, modificación o eliminación de elementos. También, notificar mediante Toast si el inicio de sesión es correcto o incorrecto.
+
+- Toast de Añadir, Modificar y Borrar:
+  
+![toast3](https://github.com/ChemaDvp/ProyectoFinalMultimedia/assets/115820368/2dbf8ae6-3007-4bc5-9b81-b667dc059c3d)
+
+![toast2](https://github.com/ChemaDvp/ProyectoFinalMultimedia/assets/115820368/b6275ce1-e488-41b4-a21a-1e7aa2bddf8c)
+
+![toast1](https://github.com/ChemaDvp/ProyectoFinalMultimedia/assets/115820368/f2930792-7dc2-4c3f-8a63-5be81718c9d8)
+
+
+- Toast Inicio o Fallo de Sesión:
+
+![toast1](https://github.com/ChemaDvp/ProyectoFinalMultimedia/assets/115820368/f1539365-c5d8-4a64-90c9-47ca5a694cb1)
+
+![toast2](https://github.com/ChemaDvp/ProyectoFinalMultimedia/assets/115820368/ecaabee7-7169-475f-b9b6-b4600ea353c8)
+
+- Toast campos rellenos:
+
+![toast3](https://github.com/ChemaDvp/ProyectoFinalMultimedia/assets/115820368/d37a5175-f242-4384-b71b-dcfc6ac62e90)
+
 
 ### Tecnologías Utilizadas
 - **SQLite**: Se utilizará para la gestión de la base de datos.
