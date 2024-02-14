@@ -6,7 +6,7 @@
 
 ## Índice
 
-- [Aplicación Android](#aplicacion-Android)
+- [Aplicación Android](#aplicacion-android)
 - [Requisitos](#requisitos)
   - [Temática de la Aplicación](#temática-de-la-aplicación)
   - [Componentes Obligatorios](#componentes-obligatorios)
