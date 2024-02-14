@@ -18,8 +18,6 @@
     - [Barra de Navegación Inferior](#barra-de-navegación-inferior)
     - [Toasts](#toasts)
     - [Tecnologías Utilizadas](#tecnologías-utilizadas)
-    - [Toasts](#toasts)
-    - [Tecnologías Utilizadas](#tecnologías-utilizadas)
 - [Funcionalidades Adicionales](#funcionalidades-adicionales)
     - [OPCIÓN ELEGIDA](#opción-elegida)
 
