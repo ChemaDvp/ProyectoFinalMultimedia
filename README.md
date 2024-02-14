@@ -39,33 +39,72 @@ La aplicación debe contar con al menos dos actividades:
 
 1. Actividad de Login.
 
-  ![login](https://github.com/ChemaDvp/ProyectoFinalMultimedia/assets/115820368/c9eaf341-7cf3-4d43-b224-db5383e36744)
+![login](https://github.com/ChemaDvp/ProyectoFinalMultimedia/assets/115820368/c9eaf341-7cf3-4d43-b224-db5383e36744)
 
    
 2. Actividad principal, a la cual se redirigirá al usuario tras un inicio de sesión exitoso.
 
-   ![actividadPrincipal](https://github.com/ChemaDvp/ProyectoFinalMultimedia/assets/115820368/e3d03d59-301b-46cc-af7b-78bf6caa26e0)
+![actividadPrincipal](https://github.com/ChemaDvp/ProyectoFinalMultimedia/assets/115820368/e3d03d59-301b-46cc-af7b-78bf6caa26e0)
 
 
 ### Fragments
 La actividad principal debe incluir varios fragments:
 
+![fragments](https://github.com/ChemaDvp/ProyectoFinalMultimedia/assets/115820368/2a14a588-bcfb-412d-8b07-4030a8cf4682)
+
 1. **Fragment "Home"**: Realiza automáticamente una consulta para obtener todos los elementos y mostrarlos en una lista.
+
+![actividadPrincipal](https://github.com/ChemaDvp/ProyectoFinalMultimedia/assets/115820368/95f3409e-917f-4f37-854a-deb80ee80690)
+
+   
 2. **Fragment para crear un nuevo elemento**.
+
+![fragmentAñadir](https://github.com/ChemaDvp/ProyectoFinalMultimedia/assets/115820368/295079db-e3d4-4895-8857-3c353758e267)
+
+   
 3. **Fragment para modificar un elemento existente**.
+
+![fragmentActualizar](https://github.com/ChemaDvp/ProyectoFinalMultimedia/assets/115820368/4dc1fd94-07ca-4c15-b013-f65597bfecff)
+
+   
 4. **Fragment para eliminar un elemento**.
+
+![fragmentBorrar](https://github.com/ChemaDvp/ProyectoFinalMultimedia/assets/115820368/b99c7588-32a2-419a-b19a-a4cf34430ba9)
+
+   
 
 ### Botones
 Integrar botones en las distintas pantallas para facilitar la interacción del usuario.
 
+- Botones Login:
+
+![botones1](https://github.com/ChemaDvp/ProyectoFinalMultimedia/assets/115820368/3b6e284e-16cd-4935-b025-6fe71903a5c2)
+
+- Boton Añadir:
+
+![botones2](https://github.com/ChemaDvp/ProyectoFinalMultimedia/assets/115820368/0215c4bb-38f2-4ff0-b1d8-848e87e0bf5e)
+
+- Boton Borrar:
+
+![botones3](https://github.com/ChemaDvp/ProyectoFinalMultimedia/assets/115820368/6d47df27-b4a0-42c8-bb7a-73a043313526)
+
+
 ### Campos de Texto
 Incluir campos de texto para introducir información en los fragments correspondientes.
+
+- Ejemplo Campos de Texto:
+
+![camposTexto1](https://github.com/ChemaDvp/ProyectoFinalMultimedia/assets/115820368/bf778a8f-3b4e-4643-88a5-50afe54f364c)
+
 
 ### Listas
 Mostrar los elementos en listas, donde cada elemento deberá incluir al menos el nombre y una breve descripción debajo de él. Debe haber una cantidad suficiente de elementos para permitir el desplazamiento en la lista.
 
 ### Barra de Navegación Inferior
 Implementar una barra de navegación inferior para facilitar la transición entre los fragments. Debe incluir un botón que cierre la sesión y lleve al usuario de vuelta a la actividad de login.
+
+![menuDesplazamiento](https://github.com/ChemaDvp/ProyectoFinalMultimedia/assets/115820368/b44c317c-9b89-4f87-8819-748c37d435aa)
+
 
 ### Toasts
 Notificar mediante Toast la creación, modificación o eliminación de elementos. También, notificar mediante Toast si el inicio de sesión es correcto o incorrecto.
