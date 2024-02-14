@@ -5,7 +5,7 @@
     android:id="@+id/frameLayout2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_red_dark"
+    android:background="@drawable/fonfo_champions"
     tools:context=".borrar">
 
     <androidx.appcompat.widget.Toolbar
@@ -50,8 +50,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:background="@drawable/rounded_edittext_background"
             android:hint="ID del Jugador"
             android:minHeight="48dp"
+            android:layout_marginBottom="15dp"
             android:textColor="@color/white" />
 
         <Button
@@ -59,15 +61,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:backgroundTint="@color/white"
+            android:backgroundTint="#011369"
             android:text="Borrar Jugador"
-            android:textColor="@color/black" />
+            android:textColor="@color/white" />
     </LinearLayout>
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/anonymous_pro_bold"
         android:text="Borrar Jugador"
         android:textColor="@color/white"
         android:textSize="18sp"
@@ -76,6 +79,6 @@
         app:layout_constraintHorizontal_bias="0.17"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.39" />
+        app:layout_constraintVertical_bias="0.38" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

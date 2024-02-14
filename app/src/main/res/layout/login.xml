@@ -4,14 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_red_dark"
+    android:background="@drawable/fonfo_champions"
     tools:context=".Login">
 
     <LinearLayout
-        android:layout_width="350dp"
-        android:layout_height="300dp"
+        android:layout_width="300dp"
+        android:layout_height="350dp"
         android:gravity="center"
         android:orientation="vertical"
+        android:background="@drawable/rounded_background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -25,7 +26,7 @@
             android:layout_marginBottom="25dp"
             android:fontFamily="@font/anonymous_pro_bold"
             android:text="LOGIN"
-            android:textColor="@color/white"
+            android:textColor="#011369"
             android:textSize="30sp" />
 
         <EditText
@@ -39,7 +40,7 @@
             android:gravity="start|top"
             android:hint="Nombre"
             android:inputType="textMultiLine"
-            android:textColorHint="@color/white"
+            android:textColorHint="#011369"
             android:textSize="20dp" />
 
         <EditText
@@ -54,25 +55,25 @@
             android:hint="Contraseña"
             android:inputType="textPassword"
             android:textColor="#FFFFFF"
-            android:textColorHint="@color/white"
+            android:textColorHint="#011369"
             android:textSize="20dp" />
 
         <Button
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/white"
+            android:backgroundTint="#011369"
             android:fontFamily="@font/anonymous_pro_bold"
             android:onClick="entrar"
             android:text="Entrar"
-            android:textColor="@color/black" />
+            android:textColor="@color/white" />
 
         <com.google.android.gms.common.SignInButton
             android:id="@+id/btnGoogle"
             android:layout_width="160dp"
+            android:layout_height="56dp"
             android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-            android:layout_height="56dp"/>
+            android:layout_marginTop="10dp" />
 
     </LinearLayout>
 
@@ -89,10 +90,10 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_marginStart="105dp"
-        android:layout_marginTop="33dp"
+        android:layout_marginTop="604dp"
         android:layout_marginEnd="106dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

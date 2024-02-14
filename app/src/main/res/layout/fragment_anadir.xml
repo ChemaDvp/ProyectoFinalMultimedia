@@ -5,7 +5,7 @@
     android:id="@+id/frameLayout3"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_red_dark"
+    android:background="@drawable/fonfo_champions"
     tools:context=".anadir">
 
 
@@ -61,6 +61,7 @@
             android:id="@+id/editTextId"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/rounded_edittext_background"
             android:hint="Id jugador"
             android:inputType="text"
             android:minHeight="48dp" />
@@ -79,6 +80,7 @@
             android:id="@+id/editTextNombre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/rounded_edittext_background"
             android:hint="Nombre jugador"
             android:inputType="text"
             android:minHeight="48dp" />
@@ -98,6 +100,7 @@
             android:id="@+id/editTextPosicion"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/rounded_edittext_background"
             android:hint="Posición jugador"
             android:inputType="text"
             android:minHeight="48dp" />
@@ -117,6 +120,7 @@
             android:id="@+id/editTextEquipo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/rounded_edittext_background"
             android:hint="Equipo jugador"
             android:inputType="text"
             android:minHeight="48dp" />
@@ -137,6 +141,7 @@
             android:id="@+id/editTextUrlImagen"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/rounded_edittext_background"
             android:hint="Imagen del jugador"
             android:inputType="text"
             android:minHeight="48dp" />
@@ -147,9 +152,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="16dp"
-            android:backgroundTint="@color/white"
+            android:backgroundTint="#011369"
             android:text="Crear Jugador"
-            android:textColor="@color/black" />
+            android:textColor="@color/white" />
     </LinearLayout>
 
 
