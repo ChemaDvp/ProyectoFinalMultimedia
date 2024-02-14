@@ -71,6 +71,6 @@ Notificar mediante Toast la creación, modificación o eliminación de elementos
 ### OPCIÓN ELEGIDA: 
 #### Opción 1: Consumir un API Público y Loguearse mediante Google
 
-- Consumir un API público diferente por cada estudiante (sin repeticiones).
+- Consumir una API pública diferente por cada estudiante (sin repeticiones).
   - API pública (PROPIA CREACIÓN): https://github.com/ChemaDvp/ApiBasica.git
 - Implementar el inicio de sesión utilizando las credenciales de Google.
